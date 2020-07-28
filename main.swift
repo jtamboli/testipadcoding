@@ -30,7 +30,7 @@ struct Signpost {
 
 let signposts = [
     try! Signpost(name: "New Year", 
-             dateString: "2020-01-01:00:00-4:00"),
+             dateString: "2020-01-01T00:00:00-4:00"),
 ]
 
 signposts.forEach { print($0.description()) }
